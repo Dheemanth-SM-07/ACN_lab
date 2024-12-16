@@ -62,3 +62,7 @@ if __name__ == "__main__":
     target_ip = input("Enter target IP: ")
     word = input("Enter the word to send (e.g., TEST): ")
     send_icmp_packet(target_ip, word)
+
+#sudo python3 client.py
+#127.0.0.1
+#TEST
